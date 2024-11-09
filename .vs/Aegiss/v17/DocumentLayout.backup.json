@@ -48,8 +48,7 @@
               "RelativeToolTip": "Aegiss\\Core\\Services\\TokenGenerator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T22:19:26.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T22:19:26.68Z"
             },
             {
               "$type": "Document",
@@ -59,7 +58,7 @@
               "RelativeDocumentMoniker": "Aegiss\\Core\\Services\\AesEncryptionService.cs",
               "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\AesEncryptionService.cs",
               "RelativeToolTip": "Aegiss\\Core\\Services\\AesEncryptionService.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAiwFIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T22:10:59.81Z",
               "EditorCaption": ""
@@ -70,12 +69,11 @@
               "Title": "HashService.cs",
               "DocumentMoniker": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\HashService.cs",
               "RelativeDocumentMoniker": "Aegiss\\Core\\Services\\HashService.cs",
-              "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\HashService.cs*",
-              "RelativeToolTip": "Aegiss\\Core\\Services\\HashService.cs*",
+              "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\HashService.cs",
+              "RelativeToolTip": "Aegiss\\Core\\Services\\HashService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T12:50:02.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T12:50:02.773Z"
             },
             {
               "$type": "Document",
