@@ -1,0 +1,2 @@
+# Aegiss
+Credentials Manager
