@@ -1,0 +1,154 @@
+[
+  {
+    "ContainingType": "Aegiss.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Aegiss.Controllers.Auth",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aegiss.Controllers.CredentialEntryController",
+    "Method": "GetCredentialsByAllId",
+    "RelativePath": "api/CredentialEntry",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationAccessId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "appUserId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Aegiss.Core.DTOs.CredentialEntryDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Aegiss.Controllers.CredentialEntryController",
+    "Method": "CreateCredentialEntry",
+    "RelativePath": "api/CredentialEntry",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credentialEntry",
+        "Type": "Aegiss.Core.DTOs.CredentialEntryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aegiss.Controllers.LocationAccessController",
+    "Method": "GetLocationAccessByIDAndAppUser",
+    "RelativePath": "api/LocationAccess",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appUserId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "locationAccessId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Aegiss.Core.DTOs.LocationAccessDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Aegiss.Controllers.LocationAccessController",
+    "Method": "CreateLocationAccess",
+    "RelativePath": "api/LocationAccess",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationAccessDTO",
+        "Type": "Aegiss.Core.DTOs.LocationAccessDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aegiss.Controllers.LocationAccessController",
+    "Method": "GetAllLocationAccessByAppUser",
+    "RelativePath": "api/LocationAccess/{appUserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appUserId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Aegiss.Core.DTOs.LocationAccessDTO, Aegiss, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Aegiss.Controllers.UsersController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appUserDTO",
+        "Type": "Aegiss.Core.DTOs.AppUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

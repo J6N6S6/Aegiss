@@ -1,0 +1,6 @@
+@Aegiss_HostAddress = http://localhost:5228
+
+GET {{Aegiss_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

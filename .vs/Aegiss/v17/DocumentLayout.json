@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repos\\Aegiss\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|d:\\repos\\aegiss\\aegiss\\core\\services\\aesencryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|solutionrelative:aegiss\\core\\services\\aesencryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|d:\\repos\\aegiss\\aegiss\\core\\services\\hashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|solutionrelative:aegiss\\core\\services\\hashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|d:\\repos\\aegiss\\aegiss\\core\\services\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|solutionrelative:aegiss\\core\\services\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|d:\\repos\\aegiss\\aegiss\\controllers\\credentialentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|solutionrelative:aegiss\\controllers\\credentialentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 414,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 576,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenGenerator.cs",
+              "DocumentMoniker": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\TokenGenerator.cs",
+              "RelativeDocumentMoniker": "Aegiss\\Core\\Services\\TokenGenerator.cs",
+              "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\TokenGenerator.cs",
+              "RelativeToolTip": "Aegiss\\Core\\Services\\TokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T22:19:26.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AesEncryptionService.cs",
+              "DocumentMoniker": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\AesEncryptionService.cs",
+              "RelativeDocumentMoniker": "Aegiss\\Core\\Services\\AesEncryptionService.cs",
+              "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\AesEncryptionService.cs",
+              "RelativeToolTip": "Aegiss\\Core\\Services\\AesEncryptionService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAiwFIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T22:10:59.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HashService.cs",
+              "DocumentMoniker": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\HashService.cs",
+              "RelativeDocumentMoniker": "Aegiss\\Core\\Services\\HashService.cs",
+              "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\HashService.cs",
+              "RelativeToolTip": "Aegiss\\Core\\Services\\HashService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:50:02.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CredentialEntryController.cs",
+              "DocumentMoniker": "D:\\Repos\\Aegiss\\Aegiss\\Controllers\\CredentialEntryController.cs",
+              "RelativeDocumentMoniker": "Aegiss\\Controllers\\CredentialEntryController.cs",
+              "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Controllers\\CredentialEntryController.cs",
+              "RelativeToolTip": "Aegiss\\Controllers\\CredentialEntryController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:37:35.819Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
