@@ -29,3 +29,16 @@ Aegiss is a Web API built with C# designed for secure access creation and creden
 - [.NET SDK 8.0+](https://dotnet.microsoft.com/download)  
 - A SQL Server database or another configured database.  
 - Development tools such as Visual Studio or Visual Studio Code.  
+
+
+| Method  | Endpoint                           | Description                                                           |
+|---------|------------------------------------|-----------------------------------------------------------------------|
+| POST    | /api/Auth                          | Authenticates new users.                                              |
+| GET     | /api/AuthenticatorTfa/generateqr   | Generates qr for Google Authenticator based on e-mail.                |
+| POST    | /api/AuthenticatorTfa/validatecode | Validates key and code (Google Auth).                                 |
+| POST    | /api/Users                         | Creates a new user for the application.                               |
+| POST    | /api/LocationAccess                | Creates a new location for the credentials (ie. site).                |
+| GET     | /api/LocationAccess                | Retrieves the location for the credentials (By Id and User Id).       |
+| GET     | /api/LocationAccess/{appUserId}    | Retrieves all the location for the user (By User Id).                 |
+| POST    | /api/CredentialEntry               | Creates the credentials for a location.                               |
+| GET     | /api/CredentialEntry               | Retrieves the credentials for a location (By Location Id and User Id).|
