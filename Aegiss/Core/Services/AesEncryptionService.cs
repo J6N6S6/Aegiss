@@ -14,8 +14,9 @@ namespace Aegiss.Core.Services
         public AesEncryptionService()
         {
             //Need to take the key and the initializer vector to other place
-            _key = Encoding.UTF8.GetBytes("jT4wqXaVOL3+sqs+0sb/bOi33KzTdx0iNXrOfpGjjofYEwlqO+syWYq5NPe/oadD");
-            _iv = Encoding.UTF8.GetBytes("bH65noSD4S2aaXg9oZpu4M7hiBAJpoGQq9lX1TEK3EkPQyp5yjzHVtyiENndv5ry");
+            _key = Encoding.UTF8.GetBytes("12345678901234567890123456789012");
+            _iv = Encoding.UTF8.GetBytes("abcdefghijklmnop");
+
         }
 
         //Método para criptografar

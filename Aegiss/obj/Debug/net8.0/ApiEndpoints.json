@@ -16,6 +16,63 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Aegiss.Controllers.AuthenticatorTfaController",
+    "Method": "GenerateQR",
+    "RelativePath": "api/AuthenticatorTfa/generateqr",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Aegiss.Controllers.AuthenticatorTfaController",
+    "Method": "ValidateCode",
+    "RelativePath": "api/AuthenticatorTfa/validatecode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Aegiss.Controllers.CredentialEntryController",
     "Method": "GetCredentialsByAllId",
     "RelativePath": "api/CredentialEntry",

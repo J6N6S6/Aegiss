@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\Repos\\Aegiss\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|d:\\repos\\aegiss\\aegiss\\core\\services\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|solutionrelative:aegiss\\core\\services\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|d:\\repos\\aegiss\\aegiss\\core\\services\\aesencryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|solutionrelative:aegiss\\core\\services\\aesencryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|d:\\repos\\aegiss\\aegiss\\core\\dtos\\appuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|solutionrelative:aegiss\\core\\dtos\\appuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|d:\\repos\\aegiss\\aegiss\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|solutionrelative:aegiss\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|d:\\repos\\aegiss\\aegiss\\core\\services\\hashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|solutionrelative:aegiss\\core\\services\\hashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|d:\\repos\\aegiss\\aegiss\\core\\services\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|solutionrelative:aegiss\\core\\services\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|d:\\repos\\aegiss\\aegiss\\core\\services\\tokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|solutionrelative:aegiss\\core\\services\\tokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|d:\\repos\\aegiss\\aegiss\\controllers\\credentialentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|solutionrelative:aegiss\\controllers\\credentialentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|d:\\repos\\aegiss\\aegiss\\core\\validators\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3400B72-536A-41D8-BD94-392072C32C19}|Aegiss\\Aegiss.csproj|solutionrelative:aegiss\\core\\validators\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,66 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 414,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 576,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TokenGenerator.cs",
-              "DocumentMoniker": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\TokenGenerator.cs",
-              "RelativeDocumentMoniker": "Aegiss\\Core\\Services\\TokenGenerator.cs",
-              "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\TokenGenerator.cs",
-              "RelativeToolTip": "Aegiss\\Core\\Services\\TokenGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T22:19:26.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AesEncryptionService.cs",
               "DocumentMoniker": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\AesEncryptionService.cs",
               "RelativeDocumentMoniker": "Aegiss\\Core\\Services\\AesEncryptionService.cs",
               "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\AesEncryptionService.cs",
               "RelativeToolTip": "Aegiss\\Core\\Services\\AesEncryptionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T22:10:59.81Z",
+              "WhenOpened": "2024-11-26T22:27:50.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "AppUserDTO.cs",
+              "DocumentMoniker": "D:\\Repos\\Aegiss\\Aegiss\\Core\\DTOs\\AppUserDTO.cs",
+              "RelativeDocumentMoniker": "Aegiss\\Core\\DTOs\\AppUserDTO.cs",
+              "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Core\\DTOs\\AppUserDTO.cs",
+              "RelativeToolTip": "Aegiss\\Core\\DTOs\\AppUserDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T22:27:18.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Repos\\Aegiss\\Aegiss\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Aegiss\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Aegiss\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAC8AAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T22:26:33.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "HashService.cs",
               "DocumentMoniker": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\HashService.cs",
               "RelativeDocumentMoniker": "Aegiss\\Core\\Services\\HashService.cs",
               "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\HashService.cs",
               "RelativeToolTip": "Aegiss\\Core\\Services\\HashService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T12:50:02.773Z"
+              "WhenOpened": "2024-11-26T21:33:42.318Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CredentialEntryController.cs",
-              "DocumentMoniker": "D:\\Repos\\Aegiss\\Aegiss\\Controllers\\CredentialEntryController.cs",
-              "RelativeDocumentMoniker": "Aegiss\\Controllers\\CredentialEntryController.cs",
-              "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Controllers\\CredentialEntryController.cs",
-              "RelativeToolTip": "Aegiss\\Controllers\\CredentialEntryController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAAAfAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "PasswordValidator.cs",
+              "DocumentMoniker": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Validators\\PasswordValidator.cs",
+              "RelativeDocumentMoniker": "Aegiss\\Core\\Validators\\PasswordValidator.cs",
+              "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Validators\\PasswordValidator.cs",
+              "RelativeToolTip": "Aegiss\\Core\\Validators\\PasswordValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T15:37:35.819Z"
+              "WhenOpened": "2024-11-26T21:25:44.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenValidator.cs",
+              "DocumentMoniker": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\TokenValidator.cs",
+              "RelativeDocumentMoniker": "Aegiss\\Core\\Services\\TokenValidator.cs",
+              "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\TokenValidator.cs",
+              "RelativeToolTip": "Aegiss\\Core\\Services\\TokenValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T21:23:57.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenGenerator.cs",
+              "DocumentMoniker": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\TokenGenerator.cs",
+              "RelativeDocumentMoniker": "Aegiss\\Core\\Services\\TokenGenerator.cs",
+              "ToolTip": "D:\\Repos\\Aegiss\\Aegiss\\Core\\Services\\TokenGenerator.cs",
+              "RelativeToolTip": "Aegiss\\Core\\Services\\TokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T21:21:22.171Z",
+              "EditorCaption": ""
             }
           ]
         }

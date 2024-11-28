@@ -35,6 +35,8 @@ namespace Aegiss.Controllers
                 return NotFound(new CustomException("The location access does not belong to the user requested", 400));
             }
 
+            AesEncryptionService aesEncryptionService = new AesEncryptionService();
+
             var credentials = await _context.CredentialEntries
                 .Where(ce => ce.LocationAccessId == locationAccessId)
                 .Select(ce => new CredentialEntry
@@ -42,11 +44,11 @@ namespace Aegiss.Controllers
                     Id = ce.Id,
                     LocationAccessId = ce.LocationAccessId,
                     Username = ce.Username,
-                    Password = ce.Password
+                    Password = aesEncryptionService.Decrypt(ce.Password)
                 })
                 .ToListAsync();
 
-            return Ok(credentials.LastOrDefault());
+            return Ok(credentials.SingleOrDefault());
         }
 
         [HttpPost]
@@ -57,7 +59,7 @@ namespace Aegiss.Controllers
                 return BadRequest(new CustomException("Invalid credentials data", 400));
             }
 
-            if (credentialEntry.LocationAccessId == 0 || credentialEntry.LocationAccessId == null)
+            if (credentialEntry.LocationAccessId == 0)
             {
                 return BadRequest(new CustomException("Invalid location access", 400));
             }
@@ -67,13 +69,14 @@ namespace Aegiss.Controllers
                 return BadRequest(new CustomException("Invalid username or password", 400));
             }
 
+            AesEncryptionService aesEncryptionService = new AesEncryptionService();
+
             var credentials = new CredentialEntry
             {
                 LocationAccessId = credentialEntry.LocationAccessId,
                 Username = credentialEntry.Username,
-                Password = HashService.HashPassword(credentialEntry.Password),
+                Password = aesEncryptionService.Encrypt(credentialEntry.Password),
                 CreatedAt = DateTime.Now
-
             };
 
             _context.CredentialEntries.Add(credentials);

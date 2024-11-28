@@ -288,3 +288,6 @@ D:\Repos\Aegiss\Aegiss\bin\Debug\net8.0\Ensure.That.dll
 D:\Repos\Aegiss\Aegiss\bin\Debug\net8.0\JWT.dll
 D:\Repos\Aegiss\Aegiss\bin\Debug\net8.0\JwtBuilder.dll
 D:\Repos\Aegiss\Aegiss\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Repos\Aegiss\Aegiss\obj\Debug\net8.0\Aegiss.sourcelink.json
+D:\Repos\Aegiss\Aegiss\bin\Debug\net8.0\Google.Authenticator.dll
+D:\Repos\Aegiss\Aegiss\bin\Debug\net8.0\QRCoder.dll
